@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+	position: relative;
+	width: 400px;
+	height: 200px;
+	border: 3px solid #73AD21;
+	background-color: #ddd;
+} 
+div.absolute {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	width: 80px;
+	height: 40px;
+	border: 3px solid #73AD21;
+}
+div.absolute2 {
+	position: absolute;
+	top: 20px;
+	left: 84px;
+	width: 80px;
+	height: 40px;
+	border: 3px solid red;
+	background-color: #aaa;
+}
+div.absolute3 {
+	position: absolute;
+	top: 20px;
+	left: 167px;
+	width: 80px;
+	height: 40px;
+	border: 3px solid gray;
+	background-color: #eee;
+}
+div.absolute4 {
+	position: absolute;
+	top: 61px;
+	left: 0px;
+	width: 246px;
+	height: 40px;
+	border: 3px solid gray;
+	background-color: #efa;
+}
+div.absolute5 {
+	position: absolute;
+	top: 20px;
+	left: 249px;
+	width: 100px;
+	height: 83px;
+	border: 3px solid yellow;
+	background-color: #fae;
+}
+.anyName {
+	position: absolute;
+	top: 20px;
+	left: 350px;
+	width: 45px;
+	height: 83px;
+	border: 3px solid green;
+	background-color: #fd2;
+}
+</style>
+</head>
+<body>
+<h2>position: absolute;</h2>
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+<div class="relative">This div element has position: relative;
+<div class="absolute">1 div </div>
+<div class="absolute2">2 div </div>
+<div class="absolute3">3 div </div>
+<div class="absolute4">4 div </div>
+<div class="absolute5"><h1>Bravo</h1> </div>
+<div class="anyName">SUZ</div>
+</div>
+</body>
+</html>
