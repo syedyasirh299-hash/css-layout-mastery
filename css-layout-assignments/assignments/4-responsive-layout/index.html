@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Layout (Positioning)</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        .header {
+            background-color: #00bfff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        /* Container */
+        .container {
+            position: relative;
+            height: 400px; /* adjust height as needed */
+            margin: 10px;
+        }
+
+        .left-sidebar {
+            background-color: #ff4500;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 20%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        .main-content {
+            background-color: #32cd32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 60%;
+            position: absolute;
+            top: 0;
+            left: 20%;
+            bottom: 0;
+        }
+
+        .right-sidebar {
+            background-color: #ffd700;
+            text-align: center;
+            padding: 20px;
+            width: 20%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        /* Footer */
+        .footer {
+            position: relative;
+            height: 150px;
+            background-color: blueviolet;
+            margin-top: -10px;
+        }
+
+        .footer div {
+            background-color: #ff7f50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 20%;
+            position: absolute;
+            top: 5%;
+        }
+
+        .footer div:nth-child(1) { left: 2%; }
+        .footer div:nth-child(2) { left: 25%; }
+        .footer div:nth-child(3) { left: 50%; }
+        .footer div:nth-child(4) { left: 75%; }
+    </style>
+</head>
+<body>
+    <div class="header">Header</div>
+
+    <div class="container">
+        <div class="left-sidebar">Left sidebar</div>
+        <div class="main-content">Main content</div>
+        <div class="right-sidebar">Right sidebar</div>
+    </div>
+
+    <div class="footer">
+        <div>Footer 1</div>
+        <div>Footer 2</div>
+        <div>Footer 3</div>
+        <div>Footer 4</div>
+    </div>
+</body>
+</html>
