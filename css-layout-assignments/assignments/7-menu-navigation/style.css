@@ -1,0 +1,172 @@
+ .con{
+            position:relative;
+        
+            height:500px;
+            border:5px solid black;
+             width:760px;
+             
+}
+.i{
+     color:#0093af;
+     margin-top:60px;
+}
+          .cp{
+            position:absolute;
+            height: 150px;
+            border: 5px solid #0093af;
+            width: 648px;
+            margin-left:50px;
+            margin-top:15px;
+            text-align:center;
+}
+          .ho{
+            position:absolute;
+          border-left:solid #4cbb17 5px;
+    border-right:solid black 5px;
+    border-top:solid #4cbb17 5px;
+    border-bottom:solid #4cbb17 5px;
+    background:yellow;
+    width:90px;
+    height:30px;
+    width:120px; 
+            text-align:center;
+            margin-top:170px;
+            margin-left:50px;
+}
+          .me{
+            position:absolute;
+          border-left:solid #4cbb17 0px;
+    border-right:solid black 5px;
+    border-top:solid #4cbb17 5px;
+    border-bottom:solid #4cbb17 5px;
+    background:yellow;
+    width:120px;
+    height:30px;
+            text-align:center;
+            margin-top:170px;
+            margin-left:179px;
+}
+
+
+             .me1{
+            position:absolute;
+          border-left:solid #4cbb17 0px;
+    border-right:solid black 5px;
+    border-top:solid #4cbb17 5px;
+    border-bottom:solid #4cbb17 5px;
+    background:yellow;
+    width:150px;
+    height:30px;
+            text-align:center;
+            margin-top:170px;
+            margin-left:304px;
+}
+          .me2{
+            position:absolute;
+          border-left:solid #4cbb17 0px;
+    border-right:solid black 5px;
+    border-top:solid #4cbb17 5px;
+    border-bottom:solid #4cbb17 5px;
+    background:yellow;
+    width:120px;
+    height:30px;
+            text-align:center;
+            margin-top:170px;
+            margin-left:458px;
+}
+           .me3{
+            position:absolute;
+          border-left:solid #4cbb17 0px;
+    border-right:solid #4cbb17  5px;
+    border-top:solid #4cbb17 5px;
+    border-bottom:solid #4cbb17 5px;
+    background:yellow;
+    width:120px;
+    height:30px;
+            text-align:center;
+            margin-top:170px;
+            margin-left:582px;
+}     
+          .bl{
+            position:absolute;
+            height: 260px;
+             border-top:solid #4cbb17 1px;
+            border-bottom: 5px  solid black;
+            border-right: solid black 5px;
+            border-left: solid black 5px;
+            width: 648px;
+            margin-left:50px;
+            margin-top:210px;
+            text-align:center;
+}
+           .ch{
+             position:absolute; 
+             height:190px;
+             width:250px;
+             border: 5px solid #ff5349;
+             margin-top:35px;
+             margin-left:70px;
+             text-align:center;
+}    
+      ul {
+            list-style-type: none;  /*Remove bullets */
+            padding: 0; /* Remove padding */
+            margin-left: -250px;
+            margin-top:110px; /* Remove margins */
+        }
+        li {
+            display: inline; /* Display list items in a horizontal line */
+           /* Add some space between items */
+     margin:10px;
+        }        
+           .lh{
+             position:absolute; 
+             height:190px;
+             width:200px;
+             border: 5px solid #ff5349;
+             margin-top:-150px;
+             margin-left:400px;
+             text-align:center;
+}   
+.j{
+   color:#0093af;margin-top:2px;
+}
+.cd{
+    margin-top:69px;
+    margin-left:-400px;
+}
+   .it{
+    background-color:#21abcd;
+    border: 5px solid #4cbb17 ;
+    width:150px;
+    height:30px;
+    text-align:center;
+    margin-top:-195px;
+    margin-left:425px;
+}
+   .it1{
+    background-color:#21abcd;
+    border: 5px solid #4cbb17 ;
+    width:150px;
+    height:30px;
+    text-align:center;
+    margin-top:-4px;
+   margin-left:425px;
+}   .it2{
+    background-color:#21abcd;
+    border: 5px solid #4cbb17 ;
+    width:150px;
+    height:30px;
+    text-align:center;
+    margin-top:-4px;
+  margin-left:425px;
+}
+   .it3{
+    background-color:#21abcd;
+    border: 5px solid #4cbb17 ;
+    width:150px;
+    height:30px;
+    text-align:center;
+    margin-top:-4px;
+    margin-left:425px;
+}
