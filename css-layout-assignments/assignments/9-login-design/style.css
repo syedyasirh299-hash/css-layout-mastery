@@ -1,0 +1,195 @@
+.container {
+    position: relative;
+    width: 750px;
+    height: 960px;
+    background-color: #040720;
+}
+
+.login-title {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-size: 11px;
+    color: white;
+}
+
+.main-text {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 100px;
+    color: white;
+}
+
+.small-text {
+    margin-top: -20px;
+    color: grey;
+}
+
+.footer-text1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 410px;
+    color: grey;
+    font-size: 10px;
+}
+
+.footer-text2 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 480px;
+    color: grey;
+    font-size: 10px;
+}
+
+.footer-text3 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 550px;
+    color: grey;
+    font-size: 10px;
+}
+
+.sign-in-button {
+    position: absolute;
+    width: 55px;
+    height: 14px;
+    background-color: #00B0FF;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    margin-top: 250px;
+    margin-left: 100px;
+    color: white;
+    font-size: 10px;
+}
+
+.state-picture {
+    position: absolute;
+    width: 270px;
+    height: 130px;
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    margin-top: 90px;
+    margin-left: 380px;
+    color: white;
+    font-size: 10px;
+}
+
+.main-info {
+    position: absolute;
+    width: 750px;
+    height: 600px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 310px;
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.info-text {
+    margin-top: 85px;
+}
+
+.feature-box {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #00B0FF;
+    border-radius: 9px;
+    text-align: center;
+    align-content: center;
+    margin-top: 430px;
+    margin-left: 150px;
+    color: grey;
+}
+
+.feature-box-2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #00B0FF;
+    border-radius: 9px;
+    text-align: center;
+    align-content: center;
+    margin-top: 430px;
+    margin-left: 270px;
+    color: grey;
+}
+
+.feature-box-3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #00B0FF;
+    border-radius: 9px;
+    text-align: center;
+    align-content: center;
+    margin-top: 430px;
+    margin-left: 390px;
+    color: grey;
+}
+
+.feature-box-4 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #00B0FF;
+    border-radius: 9px;
+    text-align: center;
+    align-content: center;
+    margin-top: 430px;
+    margin-left: 510px;
+    color: grey;
+}
+
+.testimonial {
+    position: absolute;
+    width: 750px;
+    height: 180px;
+    background-color: #ddd;
+    text-align: center;
+    align-content: center;
+    margin-top: 610px;
+    margin-left: 0px;
+    color: grey;
+}
+
+.call-section {
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    background-color: #00B0FF;
+    align-content: center;
+    margin-top: 810px;
+    margin-left: 70px;
+    color: white;
+}
+
+.call-text {
+    margin-left: 20px;
+}
+
+.sign-in-footer {
+    position: absolute;
+    width: 55px;
+    height: 14px;
+    border: 3px solid white;
+    background-color: #00B0FF;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    margin-top: 840px;
+    margin-left: 580px;
+    color: white;
+    font-size: 10px;
+}
+
+.copy-text {
+    position: absolute;
+    margin-top: 930px;
+    margin-left: 310px;
+    color: white;
+}

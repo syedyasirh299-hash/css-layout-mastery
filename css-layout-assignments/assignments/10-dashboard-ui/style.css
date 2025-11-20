@@ -1,0 +1,371 @@
+.container {
+    position: relative;
+    width: 740px;
+    height: 850px;
+}
+
+.header-bar {
+    position: absolute;
+    width: 700px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.header-bar-text { 
+  word-spacing: 27px;
+  color: white;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.search-box {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 530px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.search-button {
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    margin-top: 26px;
+    margin-left: 670px;
+    color: white;
+    background-color: #00bfff;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.card1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.card1-desc {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 250px;
+    margin-left: 20px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.card2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.card2-desc {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 250px;
+    margin-left: 200px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.card3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 380px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.card3-desc {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 250px;
+    margin-left: 380px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.card4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 560px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.card4-desc {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 250px;
+    margin-left: 560px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.main-header {
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    margin-top: 300px;
+    margin-left: 20px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+}
+
+.header-detail {
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    margin-top: 300px;
+    margin-left: 315px;
+    font-size: 13px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+}
+
+.get-in-touch {
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 500px;
+}
+
+.contact-button1 {
+    position: absolute;
+    width: 220px;
+    height: 35px;
+    margin-top: 335px;
+    margin-left: 520px;
+    background-color: #00bfff;
+}
+
+.contact-button2 {
+    position: absolute;
+    width: 220px;
+    height: 35px;
+    margin-top: 390px;
+    margin-left: 520px;
+    background-color: #00bfff;
+}
+
+.logo-box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 460px;
+    margin-left: 20px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.header-small {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    margin-top: 660px;
+    margin-left: 20px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.header-button {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    margin-top: 780px;
+    margin-left: 20px;
+    align-content: center;
+    color: white;
+    background-color: #00bfff;
+}
+
+.small-card1 {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    margin-top: 460px;
+    margin-left: 240px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.small-card1-desc {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    margin-top: 580px;
+    margin-left: 240px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    font-size: 12px;
+    align-content: center;
+}
+
+.small-card2 {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    margin-top: 460px;
+    margin-left: 400px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.small-card2-desc {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    margin-top: 580px;
+    margin-left: 400px;
+    font-size: 12px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    align-content: center;
+}
+
+.small-card3 {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    margin-top: 460px;
+    margin-left: 560px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.small-card3-desc {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    margin-top: 580px;
+    margin-left: 560px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    font-size: 12px;
+    align-content: center;
+}
+
+.small-card4 {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    margin-top: 650px;
+    margin-left: 240px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.small-card4-desc {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    margin-top: 770px;
+    margin-left: 240px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    font-size: 12px;
+    align-content: center;
+}
+
+.small-card5 {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    margin-top: 650px;
+    margin-left: 400px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.small-card5-desc {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    margin-top: 770px;
+    margin-left: 400px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    font-size: 12px;
+    align-content: center;
+}
+
+.small-card6 {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    margin-top: 650px;
+    margin-left: 560px;
+    color: grey;
+    background-color: #d3d3d3;
+    border-radius: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.small-card6-desc {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    margin-top: 770px;
+    margin-left: 560px;
+    background-color: #E8EBED;
+    border-radius: 2px;
+    font-size: 12px;
+    align-content: center;
+}
